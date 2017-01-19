@@ -1,0 +1,23 @@
+# Created by https://www.gitignore.io/api/linux
+
+### Linux ###
+*~
+
+### macOS ###
+*.DS_Store
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+Desktop.ini
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
