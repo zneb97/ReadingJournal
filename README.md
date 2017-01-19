@@ -19,7 +19,7 @@ Clone your copy of the repository to your laptop to work on by running the follo
 
 ```
 $ cd ~
-$ git clone https://github.com/YourUsername/reading-journal.git
+$ git clone https://github.com/YourUsername/ReadingJournal.git
 ```
 
 Next, you can fire Jupyter notebook and load the reading journal for day X.
