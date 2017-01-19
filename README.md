@@ -25,7 +25,7 @@ $ git clone https://github.com/YourUsername/ReadingJournal.git
 Next, you can fire Jupyter notebook and load the reading journal for day X.
 
 ```
-$ cd ~/reading-journal
+$ cd ~/ReadingJournal
 $ jupyter notebook dayX_reading_journal.ipynb
 ```
 
@@ -37,7 +37,7 @@ If all goes well, this should bring up a web-browser with the reading questions 
 Once you have completed your reading journal (not just the reading exercises, but also your notes as well as any comments you want to give to us), you can turn in your work by running the following commands. First, make sure you have saved the notebook by clicking "Save and checkpoint" in the browser window. Then, run:
 
 ```
-$ cd ~/reading-journal
+$ cd ~/ReadingJournal
 $ git add dayX_reading_journal.ipynb
 $ git commit -m "Turning in my reading journal for day X"
 $ git push origin master
@@ -51,20 +51,20 @@ We will continue adding reading notebooks, one per class day, to the original up
 
 ### One Time Setup: Add Upstream Remote
 
-On your laptop, you should have a cloned copy of the reading-journal repository from your GitHub account. You can verify this by checking its remote repositories:
+On your laptop, you should have a cloned copy of the ReadingJournal repository from your GitHub account. You can verify this by checking its remote repositories:
 
 ```
-$ cd ~/reading-journal
+$ cd ~/ReadingJournal
 $ git remote -v
 
-origin	https://github.com/YourUsername/reading-journal.git (fetch)
-origin	https://github.com/YourUsername/reading-journal.git (push)
+origin	https://github.com/YourUsername/ReadingJournal.git (fetch)
+origin	https://github.com/YourUsername/ReadingJournal.git (push)
 ```
 
 We want to keep `origin` (the cloned copy in your GitHub account) for you to push completed work to, but we also want to add the original upstream class master repository for you to pull new assignments from. We can add this additional remote by running:
 
 ```
-$ git remote add upstream	https://github.com/sd17spring/reading-journal.git
+$ git remote add upstream	https://github.com/sd17spring/ReadingJournal.git
 ```
 
 If you run `git remote -v` now, you should see both `origin` and `upstream` listed.
